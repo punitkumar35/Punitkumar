@@ -7,55 +7,55 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "SOC Auntomation LAB",
     description: "Project 1 description",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Hands-On Automation LAB"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Active Directory Virtual Simulation",
     description: "Project 2 description",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Hands-On Automation LAB"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Networking LAB",
     description: "Project 3 description",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Hands-On Automation LAB"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Networking Tools Using Python",
     description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Programming"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
+    title: "Active Directory Enviorment Simulation",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Hands-On Automation LAB"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Shuffle Email phishing Detection",
     description: "Project 5 description",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Hands-On Automation LAB"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Hands-On Automation LAB"
+          isSelected={tag === "Hands-On Automation LAB"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Programming"
+          isSelected={tag === "Programming"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

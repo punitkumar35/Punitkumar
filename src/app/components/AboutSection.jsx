@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Linux</li>
+        <li>Splunk</li>
+        <li>Wireshark</li>
+        <li>Zeek</li>
+        <li>Microsoft End Point</li>
+        <li>Suricata</li>
+        <li>Network Monitoring</li>
       </ul>
     ),
   },
@@ -23,8 +24,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>BCA, Karnataka University Dharwad.</li>
+        <li>Currently persuing MCA, JECRC University Jaipur Rajasthan.</li>
       </ul>
     ),
   },
@@ -33,8 +34,11 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Google Cyber Security professional</li>
+        <li>Web VAPT from Intern Shala</li>
+        <li>Oﬀensive security by Try Hack Me</li>
+        <li>professional Networking by Udemy</li>
+        <li>Certificates from code Red</li>
       </ul>
     ),
   },
@@ -57,12 +61,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Passionate about protecting the digital world from cyber threats, I am a dedicated cybersecurity professional with a proven track record in safeguarding organizations and individuals against evolving cyber threats. My mission is to fortify the digital landscape and promote cybersecurity awareness.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
